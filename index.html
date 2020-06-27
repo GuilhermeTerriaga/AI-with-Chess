@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Deep Kind of Blue</title>
+    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="corpo-pag">
+        <div class="tittle-pag">
+        <h1>Xadrez com AI</h1>
+        <h4><del>Quase um Deep Blue</del></h4>
+    </div>
+        <div id="board" class="board"></div>
+        <div class="info">
+            <p>Altura do nó de profundidade da busca</p>
+            <select id="search-depth">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+            </select>
+            <span class="dados">Posições validadas <span id="position-count"></span></span>
+            <span class="dados">Posições/segundo: <span id="positions-per-s"></span></span>
+            <span class="dados">Tempo: <span id="time"></span></span>
+            <div id="move-history" class="dados move-history"></div>
+        </div>
+        <footer>
+            <p>Criado com &lt;3 por<a id="author" href="https://github.com/GuilhermeTerriaga">Guilherme
+                    Terriaga</a></p>
+        </footer>
+    </div>
+    <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="lib/chessboardjs/js/chess.js"></script>
+    <script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+    <script src="js/ai.js"></script>
+</body>
+
+</html>

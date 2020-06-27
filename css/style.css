@@ -1,0 +1,67 @@
+.tittle-pag {
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(65, 105, 225, 0.479);
+    border-radius: 60px 60px 0 0;
+    border-bottom: 3px #024379 solid;
+    margin-bottom: 15px;
+ }
+ 
+.dados {
+    display: block;
+    margin: 15px 0;
+}
+
+.board {
+    width: 400px;
+    margin: auto;
+}
+
+.info {
+    background-color:rgba(14, 24, 51, 0.342) ;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+#author:link{
+    color: black;
+}
+#author:visited{
+    color: black;
+}
+#author{
+    clear: both;
+    color: black;
+    padding: 4px;
+}
+#author:hover{
+    color: rgb(255, 110, 110);
+    background-color: transparent;
+}
+#author:active{
+    color: black;
+}
+a{
+    text-decoration:none;
+    padding: 5px 10px;
+}
+footer{
+    position: static;
+    bottom: 0;
+    margin: 10px auto 0 auto;
+    background:rgba(65, 105, 225, 0.479);
+    width: 100%;
+    height: 60px; 
+    border-top: 3px #024379 solid;
+    border-bottom: 10px #34b4d4 solid;
+    padding-top: 40px;
+    text-align: center;
+
+}
+
