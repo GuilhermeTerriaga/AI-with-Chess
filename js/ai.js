@@ -199,7 +199,7 @@ var makeBestMove = function () {
     renderMoveHistory(game.history());
     if (game.game_over()) {
         console.log('ganhou ou perdeu 1')
-        alert('Game over');
+        alert('Game over \nTente novamente :)');
     }
 };
 
@@ -208,7 +208,7 @@ var positionCount;
 var getBestMove = function (game) {
     if (game.game_over()) {
         console.log('ganhou ou perdeu 2')
-        alert('Game over');
+        alert('Ganhooou yaay!');
     }
 
     positionCount = 0;
