@@ -198,7 +198,7 @@ var makeBestMove = function () {
     board.position(game.fen());
     renderMoveHistory(game.history());
     if (game.game_over()) {
-        alert('Game over \nTente novamente :)');
+        alert('Game over');
     }
 };
 
@@ -206,7 +206,7 @@ var makeBestMove = function () {
 var positionCount;
 var getBestMove = function (game) {
     if (game.game_over()) {
-        alert('Ganhooou yaay!');
+        alert('Game over');
     }
 
     positionCount = 0;
