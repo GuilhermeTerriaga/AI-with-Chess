@@ -56,13 +56,13 @@
 }
 
 .board {
-    width: 60%;
+    width: 30%;
     margin: auto;
 }
 
 .info {
     background-color: rgba(14, 24, 51, 0.342);
-    width: 60%;
+    width: 45%;
     margin: auto;
     text-align: center;
 }
