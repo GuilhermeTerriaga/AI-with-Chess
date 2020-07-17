@@ -12,12 +12,17 @@
 <body>
     <div class="corpo-pag">
         <div class="tittle-pag">
-        <h1>IA com xadrez</h1>
-        <h4><del>Quase um Deep Blue</del></h4>
-    </div>
+            <h1>IA com xadrez</h1>
+            <h4><del>Quase um Deep Blue</del></h4>
+        </div>
         <div id="board" class="board"></div>
         <div class="info">
-            <p>Altura do nó de profundidade da busca</p>
+            <div class="tooltip">
+                <p>Altura do nó de profundidade da busca
+                <span class="question">?</span></p> 
+                <span class="tooltiptext">É quase como o nível de dificuldade. Quanto maior o nó, mais tempo ele levará
+                    para responder e mais difícil será de ganhar.</span>
+            </div>
             <select id="search-depth">
                 <option value="1">1</option>
                 <option value="2">2</option>

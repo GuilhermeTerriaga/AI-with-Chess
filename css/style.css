@@ -6,11 +6,53 @@
     border-radius: 60px 60px 0 0;
     border-bottom: 3px #024379 solid;
     margin-bottom: 15px;
- }
- 
+}
+
 .dados {
     display: block;
     margin: 15px 0;
+}
+
+.question {
+    background-color: palevioletred;
+    border-radius: 360px;
+    padding: 0 5px;
+}
+
+.tooltip {
+    position: relative;
+    display: block;
+  }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
 .board {
@@ -19,7 +61,7 @@
 }
 
 .info {
-    background-color:rgba(14, 24, 51, 0.342) ;
+    background-color: rgba(14, 24, 51, 0.342);
     width: 450px;
     margin: auto;
     text-align: center;
@@ -29,39 +71,44 @@
     max-height: 100px;
     overflow-y: scroll;
 }
-#author:link{
+
+#author:link {
     color: black;
 }
-#author:visited{
+
+#author:visited {
     color: black;
 }
-#author{
+
+#author {
     clear: both;
     color: black;
     padding: 4px;
 }
-#author:hover{
+
+#author:hover {
     color: rgb(255, 110, 110);
     background-color: transparent;
 }
-#author:active{
+
+#author:active {
     color: black;
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
     padding: 5px 10px;
 }
-footer{
+
+footer {
     position: static;
     bottom: 0;
     margin: 10px auto 0 auto;
-    background:rgba(65, 105, 225, 0.479);
+    background: rgba(65, 105, 225, 0.479);
     width: 100%;
-    height: 60px; 
+    height: 60px;
     border-top: 3px #024379 solid;
     border-bottom: 10px #34b4d4 solid;
     padding-top: 40px;
     text-align: center;
-
 }
-
