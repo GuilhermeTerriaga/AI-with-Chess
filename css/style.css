@@ -6,7 +6,7 @@
     border-radius: 60px 60px 0 0;
     border-bottom: 3px #2e2e2e solid;
     margin-bottom: 15px;
-  
+    color: #fff;
 }
 
 .dados {
@@ -51,6 +51,10 @@
     border-style: solid;
 }
 
+body {
+    background-color: rgb(56, 56, 56);
+}
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
@@ -62,10 +66,11 @@
 }
 
 .info {
-    background-color: rgba(14, 24, 51, 0.342);
+    background-color: rgba(14, 24, 51, 0.158);
     width: 45%;
     margin: auto;
     text-align: center;
+    color: #fff;
 }
 
 .move-history {
