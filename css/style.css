@@ -6,6 +6,7 @@
     border-radius: 60px 60px 0 0;
     border-bottom: 3px #2e2e2e solid;
     margin-bottom: 15px;
+  
 }
 
 .dados {
@@ -77,16 +78,16 @@
 }
 
 #author:link {
-    color: black;
+    color: white;
 }
 
 #author:visited {
-    color: black;
+    color: white;
 }
 
 #author {
     clear: both;
-    color: black;
+    color: white;
     padding: 4px;
 }
 
@@ -97,7 +98,7 @@
 }
 
 #author:active {
-    color: black;
+    color: white;
 }
 
 a {
@@ -108,6 +109,7 @@ a {
 
 h1 {
     margin-top: 0!important;
+    color: white;
 }
 
 footer {
