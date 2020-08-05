@@ -2,9 +2,9 @@
     margin-top: 0;
     width: 100%;
     text-align: center;
-    background-color: rgba(65, 105, 225, 0.479);
+    background-color: rgba(0, 0, 0, 0.767);
     border-radius: 60px 60px 0 0;
-    border-bottom: 3px #024379 solid;
+    border-bottom: 3px #2e2e2e solid;
     margin-bottom: 15px;
 }
 
@@ -22,7 +22,7 @@
 .tooltip {
     position: relative;
     display: block;
-  }
+}
 
 .tooltip .tooltiptext {
     visibility: hidden;
@@ -72,8 +72,8 @@
     overflow-y: scroll;
 }
 
-.footer-text{
-margin-bottom: 0;
+.footer-text {
+    margin-bottom: 0;
 }
 
 #author:link {
@@ -105,18 +105,20 @@ a {
     text-decoration: none;
     padding: 5px 10px;
 }
-h1{
+
+h1 {
     margin-top: 0!important;
 }
+
 footer {
     position: static;
     bottom: 0;
     margin: 0 auto;
-    background: rgba(65, 105, 225, 0.479);
+    background: rgba(0, 0, 0, 0.767);
     width: 100%;
     height: 35px;
-    border-top: 3px #024379 solid;
-    border-bottom: 10px #34b4d4 solid;
+    border-top: 3px#2e2e2e solid;
+    border-bottom: 10p x#2e2e2e solid;
     padding-top: 35px;
     padding-bottom: 5px;
     text-align: center;
