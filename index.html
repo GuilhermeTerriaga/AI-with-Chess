@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <title>Deep Kind of Blue</title>
-    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="./css/normalize.css/normalize.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</head>
+    <link
+      rel="stylesheet"
+      href="lib/chessboardjs/css/chessboard-0.3.0.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css/normalize.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
 
-<body>
-
-    <div class="corpo-pag">
-        <header>
-            <div class="tittle-pag">
-            <h1>IA com xadrez</h1>
-            <h4><del>Quase um Deep Blue</del></h4>
+  <body>
+    <div>
+      <header>
+        <div class="tittle-pag">
+          <h1>IA com xadrez</h1>
+          <h4><del>Quase um Deep Blue</del></h4>
         </div>
-        </header>
-        <div id="board" class="board"></div>
-        <div class="info">
-            <div class="tooltip">
-                <p>Altura do nó de profundidade da busca
-                <span class="question">?</span></p> 
-                <span class="tooltiptext">É quase como o nível de dificuldade. Quanto maior o nó, mais tempo ele levará
-                    para responder e mais difícil será de ganhar.</span>
-            </div>
-            <select id="search-depth">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3" selected>3</option>
-                <option value="4">4</option>
-            </select>
-            <span class="dados">Posições validadas <span id="position-count"></span></span>
-            <span class="dados">Posições/segundo: <span id="positions-per-s"></span></span>
-            <span class="dados">Tempo: <span id="time"></span></span>
-            <div id="move-history" class="dados move-history"></div>
+      </header>
+      <div id="board" class="board"></div>
+      <div class="info">
+        <div class="tooltip">
+          <p>
+            Altura do nó de profundidade da busca
+            <span class="question">?</span>
+          </p>
+          <span class="tooltiptext"
+            >É quase como o nível de dificuldade. Quanto maior o nó, mais tempo
+            ele levará para responder e mais difícil será de ganhar.</span
+          >
         </div>
-        <footer>
-            <p class="footer-text">Criado com &lt;3 por <a id="author" href="https://github.com/GuilhermeTerriaga">Guilherme
-                    Terriaga</a></p>
-        </footer>
+        <select id="search-depth">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3" selected>3</option>
+          <option value="4">4</option>
+        </select>
+        <span class="dados"
+          >Posições validadas <span id="position-count"></span
+        ></span>
+        <span class="dados"
+          >Posições/segundo: <span id="positions-per-s"></span
+        ></span>
+        <span class="dados">Tempo: <span id="time"></span></span>
+        <div id="move-history" class="dados move-history"></div>
+      </div>
+      <footer>
+        <p class="footer-text">
+          Criado com &lt;3 por
+          <a id="author" href="https://github.com/GuilhermeTerriaga"
+            >Guilherme Terriaga</a
+          >
+        </p>
+      </footer>
     </div>
     <script src="lib/jquery/jquery-3.2.1.min.js"></script>
     <script src="lib/chessboardjs/js/chess.js"></script>
     <script src="lib/chessboardjs/js/chessboard-0.3.0.min.js"></script>
     <script src="js/ai.js"></script>
-</body>
-
+  </body>
 </html>
