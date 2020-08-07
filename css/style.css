@@ -62,7 +62,8 @@ body {
 }
 
 .board {
-    width: 30%;
+    min-width: 250px;
+    max-width: 500px;
     margin: auto;
 }
 
