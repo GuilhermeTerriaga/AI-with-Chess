@@ -121,8 +121,6 @@ h1 {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.767);
     width: 100%;
@@ -132,4 +130,6 @@ footer {
     padding-top: 35px;
     padding-bottom: 5px;
     text-align: center;
+    border-bottom-width: 0px !important;
+    
 }
