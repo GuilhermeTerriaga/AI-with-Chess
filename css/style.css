@@ -121,7 +121,7 @@ h1 {
 }
 
 footer {
-    position: static;
+    position: absolute;
     bottom: 0;
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.767);
